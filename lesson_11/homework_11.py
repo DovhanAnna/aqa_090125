@@ -35,3 +35,7 @@ def log_event(username: str, status: str):
         logger.warning(log_message)
     else:
         logger.error(log_message)
+
+
+if __name__ == "__main__":
+    log_event("Anna_username", "success")
