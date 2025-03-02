@@ -13,6 +13,6 @@ def count_a(text, char):
     logger.critical('Це повідомлення рівня CRITICAL') # 50
     return count
 
-logger.info(count_a("sdsdsadsadsa", "s"))
+count_a("sdsdsadsadsa", "s")
 count_a("fdjfueehfjskd", "s")
 count_a("38473298723", "732")
